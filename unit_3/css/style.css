@@ -23,6 +23,12 @@ h1 {
 	font-size: 40px;
 	font-style: italic;
 }
+h2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+}
 
 a {
 	color: #9EA8E8;
