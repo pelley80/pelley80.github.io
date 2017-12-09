@@ -13,11 +13,13 @@ header {
 }
 
 h1 {
+	font-family: Times New Roman;
 	color: #ffffff;
 	text-align: center;
 	font-size: 40px;
 }
 h2 {
+	font-family: Arial;
 	color: #37547F;
 	text-align: center;
 	font-size: 30px;
