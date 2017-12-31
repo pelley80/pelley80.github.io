@@ -1,8 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+}
 body {
 	font-family: sans-serif, Arial, Helvetica;
-	font-size: 20px;
+	font-size: 16px;
 	color: #222222;
 	line-height: 1.3;
 	text-align: left;
@@ -18,13 +23,13 @@ h1 {
 	font-family: Noto Sans, Arial;
 	color: #ffffff;
 	text-align: center;
-	font-size: 40px;
+	font-size: 3em;
 }
 h2 {
 	font-family: Arial;
 	color: #37547F;
 	text-align: center;
-	font-size: 30px;
+	font-size: 2em;
 	font-style: italic;
 }
 
@@ -32,7 +37,7 @@ h3 {
 	font-family: Arial;
 	color: #37547F;
 	text-align: left;
-	font-size: 20px;
+	font-size: 1.5em;
 }
 a {
 	color: #9EA8E8;
@@ -51,4 +56,15 @@ p {
 ol {
 	color: #37547F;
 	font-family: Barlow Semi Condensed, Helvetica;
+}
+.nav_link{
+	display: block;
+	width: 20%;
+	float: left;
+	background-color: magenta;	
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
 }
