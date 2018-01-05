@@ -99,8 +99,11 @@ ol {
 	float: left;
 	background-color: magenta;	
 }
-.clearfix:after{
-	content: "";
+.clearfix:after {
+	visibility: hidden;
+	content: " ";
 	display: block;
+	font-size: 0;
 	clear: both;
+	height: 0;
 }
